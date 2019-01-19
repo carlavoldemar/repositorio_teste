@@ -13,6 +13,13 @@ public class Empregado {
 		this.wage = wage;
 	}
 
+	public double salarioanual() {
+		return this.wage *12;
+	}
+	
+	public void displaySalario() {
+		System.out.println(this.wage);
+	}
 
 	public String getName() {
 		return name;
